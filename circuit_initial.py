@@ -33,7 +33,7 @@ sol = solve(eq1, (vo, vr, ir, ic, il))
 vos = simplify(sol[vo])
 vos1 = sol[vo]
 # compare the output of the following line if vos = sol[vo]
-'''There is no difference becuase sol[vo] is already simplified'''
+'''There is no difference because sol[vo] is already simplified'''
 print vos
 print vos1
 
